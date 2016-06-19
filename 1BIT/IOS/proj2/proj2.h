@@ -1,4 +1,4 @@
-//macro to print error message and exit program with exit code 1
+//macro to print error message and exit program with defined exit code
 #define error(s,n)  do {\
 	if (n == 1){\
 		fprintf(stderr, "ARG-ERROR: " "%s!\n", s);\
